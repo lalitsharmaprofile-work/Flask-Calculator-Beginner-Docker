@@ -118,7 +118,7 @@ class Multiply(Resource):
 class Divide(Resource):
     def post(self):
         #If I am here, then the resouce Divide was requested using the method POST
-        #data test 
+        #data test  
         #Step 1: Get posted data:
         postedData = request.get_json()
 
